@@ -1,0 +1,124 @@
+body {
+    background-color: #000;
+    font-style: normal;
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+#spider_icon{
+    width: 30px;
+    height: 30px;
+}
+
+.darkMode{
+    background-color: black;
+    transition: 1000ms;
+}
+.darkMode .info{
+    color: white;
+    transition: 1000ms;
+}
+.darkMode .bg{
+    background-color: black;
+    transition: 1000ms;
+}
+
+
+
+.lightMode{
+    background-color: white;
+    transition: 1000ms;
+}
+.lightMode .info {
+    color: black;
+    transition: 1000ms;
+}
+.lightMode .bg{
+    background-color: white;
+    transition: 1000ms;
+}
+
+
+/* Navigation */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.btn {
+    font-weight: 600;
+    font-family: proxima-nova-condensed, sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+.dropdown-menu{
+    background-color: white;
+}
+
+i{
+    cursor: pointer;
+}
+#toggleLight{
+    opacity: 0;
+}
+
+
+.dropdown-item {
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.dropdown-item:hover {
+    color: red;
+}
+
+.nav-item{
+    margin-right: 50px;
+}
+
+.nav-link:hover{
+    color: dimgray;
+}
+/* Navigation-END */
+hr{
+    border:5px solid white;
+    border-radius: 8px;
+}
+.home {
+    background-image: url("images/home.jpeg");
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 100px;
+}
+/*Main page*/
+
+.logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.container .h1 {
+    color: #d4134c;
+}
+
+.row{
+    margin: 40px;
+    margin-bottom: 10rem;
+}
+
+
+
+
+
+
+.home * {
+    margin: 0;
+}
+
+.Miles {
+    height: 100vh;
+}

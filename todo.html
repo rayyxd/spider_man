@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spider-Man</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-sm bg-black">
+
+    <div class="container justify-content-center">
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        VERSES
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="miles-verse.html" class="dropdown-item" type="button">Miles Morales</a></li>
+                        <li><a href="tobey-verse.html" class="dropdown-item" type="button">Tobey Maguire</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Puzzle/puzzle.html">GAME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="todo.html">To-Do List</a>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+<!-- Navigation-END -->
+
+<section class="vh-100" style="background-color: #191919;">
+    <div class="container h-100 w-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+                <div class="card rounded-5">
+                    <div class="card-body p-4">
+
+                        <h4 class="text-center pb-3">Your tasks</h4>
+
+                        <form class = "row g-3 mb-4 pb-2" >
+                            <div class="col-12">
+                                <div class="form-outline">
+                                    <input type="text" id="form1" class="form-control">
+                                    <label class="form-label" for="form1">Enter a task here</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="button" class="btn btn-primary" id="add">Save</button>
+                            </div>
+                        </form>
+
+                        <table class="table mb-4">
+                            <thead>
+                            <tr>
+                                <th scope="col">No.</th>
+                                <th scope="col">Todo item</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                            </thead>
+                            <tbody id="todo">
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-5">
+                    <div class="card-body p-4">
+                        <form id="myForm">
+                            <div class="mb-3 mt-3">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="text" class="form-control" id="email" placeholder="Enter email">
+                            </div>
+                            <div id="emailError" class="error" style="color: red"></div>
+                            <div class="mb-3">
+                                <label for="adds" class="form-label">Message:</label>
+                                <input type="text" class="form-control" id="adds" placeholder="Write message">
+                            </div>
+
+                            <button type="sumbit" class="btn btn-primary">Send</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="card rounded-5 mt-4">
+                    <div class="card-body p-4">
+
+                        <div class="countdown">
+                            <div class="timer" id="timer">
+                                <span class="hours">00</span>:<span class="minutes">00</span>:<span class="seconds">00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="todo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

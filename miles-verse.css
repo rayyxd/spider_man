@@ -1,0 +1,366 @@
+body {
+    background-color: #000;
+    font-style: normal;
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+#spider_icon{
+    width: 30px;
+    height: 30px;
+}
+
+.darkMode{
+    background-color: black;
+    transition: 1000ms;
+}
+.darkMode .info{
+    color: white;
+    transition: 1000ms;
+}
+.darkMode .bg{
+    background-color: black;
+    transition: 1000ms;
+}
+
+.lightMode{
+    background-color: white;
+    transition: 1000ms;
+}
+.lightMode .info {
+    color: black;
+    transition: 1000ms;
+}
+.lightMode .bg{
+    background-color: white;
+    transition: 1000ms;
+}
+
+/* Navigation */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.btn {
+    font-weight: 600;
+    font-family: proxima-nova-condensed, sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+.btn {
+    font-weight: 600;
+    font-family: proxima-nova-condensed, sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+.dropdown-menu{
+    background-color: white;
+}
+
+i{
+    cursor: pointer;
+}
+#toggleLight{
+    opacity: 0;
+}
+
+
+.dropdown-item {
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.dropdown-item:hover {
+    color: red;
+}
+
+.nav-item{
+    margin-right: 50px;
+}
+
+.nav-link:hover{
+    color: dimgray;
+}
+/* Navigation-END */
+
+
+
+
+
+
+
+.container-fluid {
+    padding: 7% 20%;
+}
+
+#car img {
+    border-radius: 50px;
+}
+
+#title {
+    background-image: url("images/SMau.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title img {
+    width: 35%;
+    padding-top: 300px;
+}
+
+.card-text {
+    font-weight: 600;
+    color: white;
+}
+
+.card-title {
+    color: #d4134c;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 600;
+    color: #d4134c;
+}
+
+.tab {
+    overflow: hidden;
+    border-bottom: solid #ccc;
+    background-color: #000000;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: black;
+    color:grey;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+    color:black;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 10px;
+}
+.tabcontent p{
+    padding:10px;
+    padding-left: 20px;
+    color: white
+}
+.contact-info{
+    color:#d4134c;
+}
+td{
+    padding-right: 80px;
+}
+
+#footer{
+    height: 300px;
+}
+#gallery {
+    padding-bottom: 50px;
+}
+
+#main-movie {
+    padding-bottom: 50px;
+}
+
+.card {
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+    perspective: 1000px; /* Добавляем эффект 3D-пространства */
+    transform-style: preserve-3d; /* Сохраняем 3D-эффект */
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.1) rotateY(15deg);
+    box-shadow: 0 0 20px rgba(212, 19, 76, 0.7);
+    cursor: pointer;
+
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1280px;
+    width: 95%;
+    background: #000000;
+    border-radius: 6px;
+}
+
+.footer .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 60px;
+}
+
+.footer-row .footer-col h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.footer-col .links {
+    margin-top: 20px;
+}
+
+.footer-col .links li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-col .links li a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+.footer-col .links li a:hover {
+    color: #fff;
+}
+
+.footer-col p {
+    margin: 20px 0;
+    color: #bfbfbf;
+    max-width: 300px;
+}
+
+.footer-col form {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-col input {
+    height: 40px;
+    border-radius: 6px;
+    background: none;
+    width: 100%;
+    outline: none;
+    border: 1px solid #7489C6 ;
+    caret-color: #fff;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.footer-col input::placeholder {
+    color: #ccc;
+}
+
+.footer-col form button {
+    background: #ca1f1f;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.footer-col form button:hover {
+    background: #cecccc;
+}
+
+.footer-col .icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.footer-col .icons i {
+    color: #afb6c7;
+}
+
+.footer-col .icons i:hover  {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        transform: none;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .footer .footer-row {
+        padding: 20px;
+        gap: 1rem;
+    }
+
+    .footer-col form {
+        display: block;
+    }
+
+    .footer-col form :where(input, button) {
+        width: 100%;
+    }
+
+    .footer-col form button {
+        margin: 10px 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

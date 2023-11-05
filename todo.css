@@ -1,0 +1,59 @@
+body {
+    background-color: #000;
+    font-style: normal;
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation */
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.btn {
+    font-weight: 600;
+    font-family: proxima-nova-condensed, sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+.dropdown-item {
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.dropdown-item:hover {
+    color: red;
+}
+
+.nav-item{
+    padding-right: 50px;
+}
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover{
+    color: dimgray;
+}
+.nav-link:visited{
+    color:white;
+}
+
+
+.countdown {
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.timer {
+    font-size: 48px;
+    text-align: center;
+}
+
